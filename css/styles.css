@@ -1,0 +1,52 @@
+body {
+   font-family: 'Roboto';
+   font-size: 16px;
+}
+.container {
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.container p {
+  margin:  0;
+  padding-top: 15px;
+}
+
+.container .foto-profile {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.container .name {
+  font-size: 20px;
+}
+
+.container .link {
+  padding-top: 40px;
+}
+
+.container .link a {
+  display: block;
+  padding:  20px;
+  color: black;
+  text-decoration: none;
+  border-radius: 20px;
+  border:  2px solid #9ecdad;
+  margin-bottom: 20px;
+  background-position: 50% 50%;
+  background-size: 0% 0%;
+  transition: 0.65s;
+}
+
+.container .link a:hover {
+  background-color: #9ecdad;
+  color: white;
+  transition: 0.65s;
+}
+
+.container .icon img {
+  margin-right: 20px;
+  width:  50px;
+}
