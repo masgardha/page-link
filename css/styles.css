@@ -4,8 +4,8 @@ body {
 }
 .container {
   text-align: center;
-  max-width: 600px;
   margin: auto;
+   max-width: 640px; 
   padding: 20px;
 }
 
@@ -44,6 +44,10 @@ body {
   background-color: #9ecdad;
   color: white;
   transition: 0.65s;
+}
+
+.container .icon {
+  padding-top:  20px;
 }
 
 .container .icon img {
