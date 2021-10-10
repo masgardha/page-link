@@ -1,0 +1,54 @@
+body {
+   font-family: "Comic Sans MS", "Comic Sans", cursive;
+   font-size: 16px;
+   background-color:  #FDCC28;
+}
+.container {
+  text-align: center;
+  margin: auto;
+   max-width: 640px; 
+  padding: 60px 20px;
+
+}
+
+.container p {
+  margin:  0;
+  padding-top: 15px;
+  font-size:  18px;
+}
+.container .title {
+   font-weight: bold;
+}
+
+.container .logo-dobidu {
+  border-radius: 5px;
+  width: 150px;
+}
+
+.container .desc {
+  font-size: 14px;
+  padding-top:  0;
+}
+
+.container .link {
+  padding-top: 40px;
+}
+
+.container .link a {
+   text-align:  left;
+  display: block;
+  padding:  20px;
+  color: #E78265;
+  text-decoration: none;
+  border-radius: 20px;
+  border:  2px solid #806403;
+  margin-bottom: 20px;
+  background-color:  white;
+  transition: 0.65s;
+}
+
+.container .link a:hover {
+   color: white;
+   border-color: white;
+    background-color:  #806403;
+}
